@@ -1,6 +1,6 @@
 /*!
  * Freelancer - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2018-2018 Start Bootstrap
+ * Copyright 2018-2018 Start Bootstrap - Iván Campa;a
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -502,4 +502,10 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+.languages ul {
+  list-style: none;
+}
+.languages li {
+  float: left;
 }
