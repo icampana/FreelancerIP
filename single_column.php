@@ -13,7 +13,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="main">
+    <section id="main" class="subpage">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

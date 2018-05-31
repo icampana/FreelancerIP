@@ -509,3 +509,10 @@ fieldset[disabled] .btn-success.active {
 .languages li {
   float: left;
 }
+header.subpage .container {
+  padding-top: 140px;
+  padding-bottom: 0px;
+}
+section.subpage {
+  padding-top: 20px;
+}
