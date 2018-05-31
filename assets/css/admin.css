@@ -4,12 +4,12 @@
 }
 
 .ipHasAdminNavbar .navbar.navbar-fixed-top{
-     top: 108px;
+     top: 148px;
 }
 
 .ipsAdminNavbarContainer,
 .ipsAdminPanel {
-     top: 0 !important;
+     top: 40px !important;
 }
 
 
