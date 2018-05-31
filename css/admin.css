@@ -1,0 +1,18 @@
+.ipHasAdminNavbar .ipAdminNavbar.navbar.navbar-fixed-top{
+     top: 0px;
+     z-index: 9999999;
+}
+
+.ipHasAdminNavbar .navbar.navbar-fixed-top{
+     top: 108px;
+}
+
+.ipsAdminNavbarContainer,
+.ipsAdminPanel {
+     top: 0 !important;
+}
+
+
+.ip .modal-dialog {
+     z-index: 9999999;
+}
