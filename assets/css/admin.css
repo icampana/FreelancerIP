@@ -12,7 +12,11 @@
      top: 40px !important;
 }
 
-
+.ip .ipModuleDesignConfig .colorpicker,
+.colorpicker
+{
+     z-index: 2000;
+}
 .ip .modal-dialog {
-     z-index: 9999999;
+     z-index: 2000;
 }
