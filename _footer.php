@@ -50,15 +50,11 @@
     </a>
 </div>
 
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
 <?php
-  echo ipAddJs('js/jqBootstrapValidation.js');
-  echo ipAddJs('js/contact_me.js');
-  echo ipAddJs('js/freelancer.min.js');
+  echo ipAddJs('assets/vendor/jquery/jquery.easing.min.js', null, 10);
+  echo ipAddJs('assets/js/freelancer.min.js', null, 100);
 ?>
-<?php if (!(ipIsManagementState ( ))) { echo ipAddJs('vendor/bootstrap/js/bootstrap.min.js'); } ?>
+<?php if (!(ipIsManagementState ( ))) { echo ipAddJs('assets/vendor/bootstrap/js/bootstrap.min.js'); } ?>
 <?php if (ipIsManagementState ( )) { echo ipAddJs('assets/tinymceConfig.js'); } ?>
 <?php echo ipJs(); ?>
 

@@ -1,24 +1,30 @@
 <?php echo ipDoctypeDeclaration(); ?>
 <html<?php echo ipHtmlAttributes(); ?>>
 <head>
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
 
     // Bootstrap Core CSS
-    ipAddCss('vendor/bootstrap/css/bootstrap.min.css');
+    ipAddCss('assets/vendor/bootstrap/css/bootstrap.min.css');
 
     // Theme CSS
-    ipAddCss('css/freelancer.min.css');
+    $selected_scheme = strtolower( ipGetThemeOption('colorScheme','') );
+    if ($selected_scheme=="" or $selected_scheme=="red"){
+      ipAddCss('assets/css/freelancer.min.css');
+    } else {
+      ipAddCss('assets/css/freelancer-'. $selected_scheme .'.min.css');
+    }
 
     // Custom Fonts
-    ipAddCss('vendor/font-awesome/css/font-awesome.min.css');
+    ipAddCss('assets/vendor/font-awesome/css/font-awesome.min.css');
 
     // Add Management CSS
-    if (ipIsManagementState ( )) { echo ipAddCss('css/admin.css'); }
+    if (ipIsManagementState ( )) { echo ipAddCss('assets/css/admin.css'); }
     ?>
+    <?php if (!(ipIsManagementState ( ))) { echo ipAddJs('assets/vendor/jquery/jquery.min.js', null, 0); } ?>
     <?php echo ipHead(); ?>
+
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -41,7 +47,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-freelancer-navbar-collapse">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <?php echo ipSlot('text', array('class' => 'navbar-brand', 'default' => 'Freelancer', 'id' => 'brandName')); ?>
+                <?php echo ipSlot('text', array('class' => 'navbar-brand', 'default' => esc(ipGetOptionLang('Config.websiteTitle')), 'id' => 'brandName', 'tag'=> 'a', 'attributes' => array('href' => '/'))); ?>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
