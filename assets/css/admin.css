@@ -20,3 +20,7 @@
 .ip .modal-dialog {
      z-index: 2000;
 }
+
+.ip .ipModuleRepositoryPopup {
+  top: 40px;
+}
