@@ -1,3 +1,29 @@
+<?php
+$profiles = array(
+  'facebook' => array(
+    'url' => ipGetThemeOption('facebookLink',''),
+    'icon' => 'fa-facebook'
+  ),
+  'twitter' => array(
+    'url' => ipGetThemeOption('twitterLink',''),
+    'icon' => 'fa-twitter'
+  ),
+  'google' => array(
+    'url' => ipGetThemeOption('googleLink',''),
+    'icon' => 'fa-google-plus'
+  ),
+  'linkedin' => array(
+    'url' => ipGetThemeOption('linkedinLink',''),
+    'icon' => 'fa-linkedin'
+  ),
+  'website' => array(
+    'url' => ipGetThemeOption('websiteLink',''),
+    'icon' => 'fa-dribbble'
+  ),
+);
+
+?>
+
 <!-- Footer -->
 <footer class="text-center">
     <div class="footer-above">
@@ -9,21 +35,13 @@
                 <div class="footer-col col-md-4">
                     <?php echo ipSlot('text', array('id' => 'socialNetworks', 'tag' => 'h3', 'default' => __('Social Networks', 'Freelancer', false))); ?>
                     <ul class="list-inline">
+                      <?php foreach($profiles as $profile): ?>
+                        <?php if (!empty($profile['url'])): ?>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="<?php echo $profile['url'] ?>" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw <?php echo $profile['icon'] ?>"></i></a>
                         </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                        </li>
+                        <?php endif ?>
+                      <?php endforeach ?>
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">

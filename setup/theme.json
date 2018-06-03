@@ -36,7 +36,7 @@
          },
 
          {
-            "label": "Footer",
+            "label": "Footer Background",
             "name": "footer-bg",
             "type": "color",
             "default": "#080808"
@@ -68,6 +68,44 @@
             "type": "select",
             "default": "2",
             "values": [1, 2, 3, 4, 5]
+        }
+
+
+       ]
+     },
+     {
+        "label": "Profile Links",
+        "type": "group",
+        "options": [
+        {
+            "label": "Twitter",
+            "name": "twitterLink",
+            "type": "url",
+            "default": "http://twitter.com"
+        },
+        {
+            "label": "Facebook",
+            "name": "facebookLink",
+            "type": "url",
+            "default": ""
+        },
+        {
+            "label": "Google +",
+            "name": "googleLink",
+            "type": "url",
+            "default": ""
+        },
+        {
+            "label": "LinkedIn",
+            "name": "linkedinLink",
+            "type": "url",
+            "default": ""
+        },
+        {
+            "label": "Website",
+            "name": "websiteLink",
+            "type": "url",
+            "default": ""
         }
 
 
