@@ -1,27 +1,34 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+# [Freelancer IP](https://github.com/icampana/FreelancerIP)
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+ImpressPages theme based on the Start Bootstrap theme [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+originally was thought as a one page freelancer portfolio created by [Start Bootstrap](http://startbootstrap.com/). This theme
+has several default color scheme combinations but can be easily updated using less and bootstrap with the included less
+files, it includes its own jQuery version.
+
+It has configurable links, 4 different layouts, color schemes and integrates with different languages,
+it also has overrides to allow some components to work better with Bootstrap (including the Nested
+Columns plugin).
 
 ## Getting Started
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* Fork the repo
+To begin using this theme:
+* Download the latest release
+* Copy it to the Theme folder on your ImpressPages installation
+* Install it from the dashboard
+* Choose your options
+* Enjoy!
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/icampana/FreelancerIP/issues) on GitHub.
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+The IP Freelancer theme was adapted to work with ImpressPages by **[Iván Campaña](http://ivan.campananaranjo.com/)** and
+originally developed by Start Bootstrap and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Original Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
