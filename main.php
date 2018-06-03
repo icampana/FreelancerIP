@@ -12,7 +12,7 @@
                         'width' => '197',
                         'height'=>'227',
                         'class' => '',
-                        'default' => ipThemeUrl('img/profile.png')
+                        'default' => ipThemeUrl('assets/profile.png')
                     );
                     echo ipSlot('image', $options);
                     ?>
