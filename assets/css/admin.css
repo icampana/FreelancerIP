@@ -24,3 +24,7 @@
 .ip .ipModuleRepositoryPopup {
   top: 40px;
 }
+
+.ipbEmpty {
+	width: 100%;
+}
