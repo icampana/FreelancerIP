@@ -30,7 +30,7 @@ $profiles = array(
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
-                    <?php echo ipBlock('footer_about')->render(); ?>
+                    <?php echo ipBlock('footer_left')->render(); ?>
                 </div>
                 <div class="footer-col col-md-4">
                     <?php echo ipSlot('text', array('id' => 'socialNetworks', 'tag' => 'h3', 'default' => __('Social Networks', 'Freelancer', false))); ?>
