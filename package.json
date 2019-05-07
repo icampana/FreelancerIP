@@ -15,7 +15,6 @@
     "jquery.easing": "^1.4.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.5",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-header": "^1.8.7",
