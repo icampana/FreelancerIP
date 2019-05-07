@@ -1,6 +1,6 @@
 {
     "title": "Freelancer BS3",
-    "version": "1.01",
+    "version": "1.03",
     "doctype": "HTML5",
     "thumbnail": "thumbnail.png",
     "author": "Iván Campaña",
@@ -25,7 +25,7 @@
             "name": "colorScheme",
             "type": "select",
             "default": "Red",
-            "values": ["Red", "Green", "Pink", "Mocha"]
+            "values": ["Red", "Green", "Pink", "Mocha", "Black"]
         },
 
          {
